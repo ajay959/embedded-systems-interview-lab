@@ -1,0 +1,60 @@
+# Embedded C Fundamentals
+
+This module focuses on core Embedded C concepts that are frequently
+tested in firmware and embedded systems interviews.
+
+## Topics Covered
+- C data types and memory sizes
+- Pointer fundamentals and common pitfalls
+- const, volatile, and static keywords
+- Structures, unions, and bit-fields
+- Memory layout: stack, heap, BSS, data
+- Function pointers and callbacks
+- Undefined and implementation-defined behavior
+
+## Why This Matters in Interviews
+Interviewers expect candidates to understand how C code maps to
+memory and hardware. This module emphasizes **reasoning**, not memorization.
+
+## Sample Interview Questions
+- Why is `volatile` mandatory for hardware registers?
+- Difference between `const int *p` and `int *const p`?
+- What happens when stack overflows in embedded systems?
+- Why is dynamic memory risky in firmware?
+
+## Toolchain / Platform
+- Compiler: GCC (arm-none-eabi-gcc)
+- Architecture: ARM Cortex-M (conceptual + examples)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
